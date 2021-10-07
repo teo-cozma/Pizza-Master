@@ -1,0 +1,93 @@
+/* Style.scss*/
+
+/* Overall style*/
+
+h1 {
+	font-family: Lobster Two;
+	color: #605F5B;
+	font-size: 40px;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+h2 {
+	font-family: Lobster Two;
+	color: #2274A5;
+	font-size: 28px;
+}
+
+body {
+	font-family: Cabin;
+	font-weight: normal;
+}
+
+.logo {
+	font-family: Lobster Two;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 35px;
+	line-height: 1em;
+}
+
+/* Navigation menu*/
+
+header {
+	background-color: #1D3461;
+}
+
+.navbar-brand {
+	font-family: Lobster Two;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 35px;
+	color: white;
+	line-height: 1em;
+}
+
+
+#navbarNav {
+	font-family: Lobster Two;
+	font-size: 20px;
+	justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px;) {
+	header {
+		padding-left: 10em;
+		padding-right: 10em;	
+	}
+	
+} 
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+}
+
+/* Hero section */
+
+.jumbotron {
+	background-color: #FB3640;
+	color: white;
+	padding-top: 1.5em;
+	padding-bottom: 3em;
+}
+
+.display-4 {
+	color: white;
+}
+
+
+/* News section */
+
+.card {
+	border: none;
+	margin-bottom: 1.5em;
+}
+
+.card-text {
+	text-align: justify;
+}
+
+#News {
+	margin-bottom: em;
+}
