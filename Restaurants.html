@@ -14,6 +14,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"> 
 
+
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
@@ -27,10 +28,11 @@
         <!-- Option 2: Separate Popper and Bootstrap JS 
     
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
         
-
-        <title>Contact</title>
+        -->
+        
+        <title>Restaurants</title>
     </head>
   
     <body>
@@ -55,10 +57,10 @@
                                   <a class="nav-link" href="Gallery-1.html">Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link" href="Restaurants.html">Restaurants</a>
+                                  <a class="nav-link active" aria-current="page" href="Restaurants.html">Restaurants</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link active" aria-current="page" href="Contact.html" tabindex="-1">Contact</a>
+                                  <a class="nav-link" href="Contact.html" tabindex="-1">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -70,70 +72,46 @@
         </header>
 
 
-        <section class="Contact">
-            <div class="container mb-5">
-                <div class="contact-form">
-                    <h1>Contact us</h1>
-                    <form>
-                        <div class="form-group row py-2">
-                            <label for="inputFirstname" class="col-sm-2 col-form-label">Firstname</label>
-                            <div class="col-sm-10">
-                              <input type="text" class="form-control" id="name">
-                            </div>
-                        </div>
-                        <div class="form-group row py-2">
-                            <label for="inputLastname" class="col-sm-2 col-form-label">Lastname</label>
-                            <div class="col-sm-10">
-                              <input type="text" class="form-control" id="name">
-                            </div>
-                        </div>
-                        <div class="form-group row py-2">
-                            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                              <input type="text" class="form-control" id="email">
-                            </div>
-                        </div>
-
-                        <div class="row py-2">
-                            <div class="col-12">
-                                <div class="btn-group dropend">
-                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Subject
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                        <button class="dropdown-item" type="button">Order online</button>
-                                        <button class="dropdown-item" type="button">Other events</button>
-                                        <button class="dropdown-item" type="button">Promos</button>
-                                    </div>   
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-3">
-                                    <label class="mb-2" for="message">Message</label>
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea pb-5"></textarea>
-                                </div>
-                             </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-12">
-                                <a class="btn" onclick="document.getElementById('contact-form').submit();" id="send-button">
-                                    <p id="send">Send<img src="images/Group 50.png" width="20px" id="send-icon"></p>
-                                </a>
-                            </div>
-                        </div>
-                    </form>
+        <section class="Restaurants">
+            <div class="container">
+                <div class="about">
+                    <h1>About us</h1>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-            </div>  
+                <div class="find-us">
+                    <h1>Find us</h1>
+                    <div class="row d-flex align-items-center px-2">
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <h3>Brussels</h3>
+                            <p class="location">Rue de l'Appétit 1, 1000 Bruxelles <br><br>Monday to Friday - 12pm to 8 pm<br>Saturday - 9am to 9pm<br>Sunday - Closed<br><br>+32 2xx xx xx xx </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <h3>Ghent</h3>
+                            <p class="location">Appétitstraat 2, 9000 Ghent<br><br>Monday to Friday - 12pm to 8 pm<br>Saturday - 9am to 9pm<br>Sunday - Closed<br><br>+32 9xx xx xx xx </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <h3>Antwerp</h3>
+                            <p class="location">Appétitstraat 3, 2000 Antwerpen<br><br>Monday to Friday - 12pm to 8 pm<br>Saturday - 9am to 9pm<br>Sunday - Closed<br><br>+32 3xx xx xx xx </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <h3>De Haan</h3>
+                            <p class="location">Appétitstraat 3, 8420 De Haan<br><br>Monday to Friday - 12pm to 8 pm<br>Saturday - 9am to 9pm<br>Sunday - Closed<br><br>+32 59x xx xx xx </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-5">
+                <div class="row" id="map">
+                    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1_QcOnGqvJWkZhNkZ8bklVdKPUjT8-qNB" width="640" height="480"></iframe>
+                </div>
+            </div>
 
         </section>
 
         <footer class="pb-3">
             <div class="d-flex justify-content-center p-4">
-                <a href="Contact.html" class="text-decoration-none"><h6 class="text-white">Back to top</h6></a>
+                <a href="Restaurants.html" class="text-decoration-none"><h6 class="text-white">Back to top</h6></a>
             </div>
 
             <div class="container mt-3 justify-content-center">
