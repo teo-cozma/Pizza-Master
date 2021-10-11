@@ -207,12 +207,12 @@ Badges for 'Classic' pizzas, 'Favorites', 'Vegetarian', 'Spicy' and items availa
 
 (08/10)
 
-***Menu page is complete !!!***
+***Menu page is complete.***
 Lots of small adjustments and going back and forth through old exercises in order to find the right utilities, but well worth doing the overtime at home.
 
 Gallery page problems : NO CAROUSEL (not the same thing) and create 4 gallery pages for the pictures. Bootstrap 4 and up have their own queries for animations and image transitions. So, we have to construct additional pages and link them. Still doable!
 
-***Restaurants page complete !!!***
+***Restaurants page complete.***
 Tip for the future : when embedding code from Google Maps (one that I have created), make sur to include a **div id="map"** in its own dedicated row so that it's responsive.
 
 When getting down to writing the code, I've often had to rethink certain design elements and adjust according to what info I manage to find, as well as my current skill level.
@@ -220,7 +220,7 @@ Also, I have to keep reminding myself not to get too caught up in detail (mostly
 
 ***Contact page complete (though minor adjustements still have to be made...)***
 
-***Gallery page(s) complete!!!***
+***Gallery page(s) complete.***
 
 
 ### Step 6 (added) : refining elements, alignments, design.
@@ -237,11 +237,11 @@ Then, the revelation that there can only be one  Bootstrap Javascript option, ei
 
 Later today, I should probably add a footer on all pages (for, of course, copyright reasons, and for including social media pages that don't exist...).
 
-***Footer added***
+***Footer added.***
 
 First I looked up what is typically included in a footer element and I retained a small menu with additional pages for more information on the franchise, a few social media pages to follow (Facebook, Twitter and LinkedIn icons were added) and a copyright, as well as a little element to get back to the top of the current page. As for the design, I still wanted to keep things simple and clear so I retained the same style for the header and used a Bootstrap grid to put the elements in place, again keeping Mobile first.
 
-![Footer sketch](./images/footer-sketch)
+![Footer sketch](./images/footer-sketch.jpg)
 
 ---
 
@@ -259,8 +259,8 @@ In addition, "tested" the launched website, modifying its dimensions, checking t
 ## Resources
 
 ### Franchise documentation
-https://bizfluent.com/about-5541243-definition-franchise-restaurant.html
-https://www.franchiserankings.com/reviews-and-ratings-of-best-restaurant-franchises
+- https://bizfluent.com/about-5541243-definition-franchise-restaurant.html
+- https://www.franchiserankings.com/reviews-and-ratings-of-best-restaurant-franchises
 
 
 ### Inspiration
@@ -268,22 +268,22 @@ https://www.franchiserankings.com/reviews-and-ratings-of-best-restaurant-franchi
 #### Franchise examples
 
 - Domino's Pizza
-https://www.dominos.com/index.intl.html
-https://www.dominos.be/fr
-https://marketrealist.com/2015/03/dominos-pizza-master-franchise-model/
+	- https://www.dominos.com/index.intl.html
+	- https://www.dominos.be/fr
+	- https://marketrealist.com/2015/03/dominos-pizza-master-franchise-model/
 
 - Other
-https://eastcoastwings.com/
-https://www.mister-pizza.com/
+	- https://eastcoastwings.com/
+	- https://www.mister-pizza.com/
 
 
 #### Popular pizza types
-https://www.webstaurantstore.com/article/101/types-of-pizza.html
-https://thelistwire.usatoday.com/lists/the-10-most-popular-pizza-toppings/
-https://www.ezcater.com/lunchrush/office/most-popular-types-of-pizza-around-country/?__cf_chl_jschl_tk__=pmd_ekd24y8QFyWi7AwXl3CTfdETvcJpt1dY.I_VprrK620-1633507670-0-gqNtZGzNAmWjcnBszQhR
-https://www.thetoptens.com/types-pizzas/
-https://www.dogtownpizza.com/blog/the-absolute-best-pizza-topping-combos/
-https://www.dogtownpizza.com/blog/the-indisputable-top-ten-classic-pizza-varieties/
+- https://www.webstaurantstore.com/article/101/types-of-pizza.html
+- https://thelistwire.usatoday.com/lists/the-10-most-popular-pizza-toppings/
+- https://www.ezcater.com/lunchrush/office/most-popular-types-of-pizza-around-country/?__cf_chl_jschl_tk__=pmd_ekd24y8QFyWi7AwXl3CTfdETvcJpt1dY.I_VprrK620-1633507670-0-gqNtZGzNAmWjcnBszQhR
+- https://www.thetoptens.com/types-pizzas/
+- https://www.dogtownpizza.com/blog/the-absolute-best-pizza-topping-combos/
+- https://www.dogtownpizza.com/blog/the-indisputable-top-ten-classic-pizza-varieties/
 
 
 
@@ -291,54 +291,55 @@ https://www.dogtownpizza.com/blog/the-indisputable-top-ten-classic-pizza-varieti
 
 #### Documentation
 - For welcome page
-https://getbootstrap.com/docs/4.0/layout/grid/
-[^1] https://getbootstrap.com/docs/4.0/components/jumbotron/
-https://getbootstrap.com/docs/5.0/examples/jumbotron/
+	- https://getbootstrap.com/docs/4.0/layout/grid/
+	- https://getbootstrap.com/docs/4.0/components/jumbotron/
+	- https://getbootstrap.com/docs/5.0/examples/jumbotron/
 
 - For menu page
-https://bootstrapshuffle.com/classes/list-group/list-group+with+badges
-https://www.tutlane.com/example/bootstrap/bootstrap-list-group-with-badges-example
-https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
+	- https://bootstrapshuffle.com/classes/list-group/list-group+with+badges
+	- https://www.tutlane.com/example/bootstrap/bootstrap-list-group-with-badges-example
+	- https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 
 - For gallery page
-https://www.w3schools.com/bootstrap/bootstrap_images.asp
-https://mdbootstrap.com/docs/standard/extended/gallery/ (see 'Multi-item carousel')
-http://visuallightbox.com/content/27-stunning-html-bootstrap-image-slideshow-and-gallery-examples-1870.html
-https://colorlib.com/wp/bootstrap-pagination/ (see 'Bootstrap Buttons V18')
-https://www.vuescript.com/bootstrap-inspired-pagination-plugin-vue-js/
-https://bootstrapcreative.com/pattern/responsive-image-gallery/
-https://www.youtube.com/watch?v=F0FkpgNtyt0
-https://getbootstrap.com/docs/4.0/components/pagination/
+	- https://www.w3schools.com/bootstrap/bootstrap_images.asp
+	- https://mdbootstrap.com/docs/standard/extended/gallery/ (see 'Multi-item carousel')
+	- http://visuallightbox.com/content/27-stunning-html-bootstrap-image-slideshow-and-gallery-examples-1870.html
+	- https://colorlib.com/wp/bootstrap-pagination/ (see 'Bootstrap Buttons V18')
+	- https://www.vuescript.com/bootstrap-inspired-pagination-plugin-vue-js/
+	- https://bootstrapcreative.com/pattern/responsive-image-gallery/
+	- https://www.youtube.com/watch?v=F0FkpgNtyt0
+	- https://getbootstrap.com/docs/4.0/components/pagination/
 
 - For Find us page
-https://mamaspizzas.net/location
-https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/
-https://bootstrapious.com/p/google-maps-and-bootstrap-tutorial
-https://bootstrapstudio.io/docs/google-maps.html
-https://www.youtube.com/watch?v=3posLKQrhfU
+	- https://mamaspizzas.net/location
+	- https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/
+	- https://bootstrapious.com/p/google-maps-and-bootstrap-tutorial
+	- https://bootstrapstudio.io/docs/google-maps.html
+	- https://www.youtube.com/watch?v=3posLKQrhfU
 
 - For contact page
-https://mdbootstrap.com/docs/b4/jquery/forms/contact/
-https://colorlib.com/wp/bootstrap-contact-form/
-https://azmind.com/bootstrap-contact-form-dropdown-select/
-https://getbootstrap.com/docs/4.0/components/dropdowns/
-https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp
-https://getbootstrap.com/docs/5.1/components/dropdowns/
+	- https://mdbootstrap.com/docs/b4/jquery/forms/contact/
+	- https://colorlib.com/wp/bootstrap-contact-form/
+	- https://azmind.com/bootstrap-contact-form-dropdown-select/
+	- https://getbootstrap.com/docs/4.0/components/dropdowns/
+	- https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp
+	- https://getbootstrap.com/docs/5.1/components/dropdowns/
 
 - For footer
-https://getbootstrap.com/docs/5.1/examples/footers/
-https://www.w3schools.com/tags/tag_footer.asp
+	- https://getbootstrap.com/docs/5.1/examples/footers/
+	- https://www.w3schools.com/tags/tag_footer.asp
 
 
 #### Tutorials
-https://www.youtube.com/watch?v=Wqu-d_b3K-0&t=613s
-https://www.youtube.com/watch?v=eow125xV5-c
-https://www.youtube.com/watch?v=1nxSE0R27Gg
-https://www.youtube.com/watch?v=itJcNZPYKZU
+- https://www.youtube.com/watch?v=Wqu-d_b3K-0&t=613s
+- https://www.youtube.com/watch?v=eow125xV5-c
+- https://www.youtube.com/watch?v=1nxSE0R27Gg
+- https://www.youtube.com/watch?v=itJcNZPYKZU
 
 
 ### Additional CSS references
-[^2] https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/List_group_with_badges
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/List_group_with_badges
+
 Building with SCSS/SASS :
 - https://www.codesmite.com/article/building-sass-and-scss-in-sublime-text
 - https://www.toptal.com/front-end/sass-style-guide-a-sass-tutorial-on-how-to-write-better-css-code
@@ -351,11 +352,11 @@ Building with SCSS/SASS :
 ### Design elements
 
 - Color palettes
-https://coolors.co/fb3640-605f5e-1d3461
+	- https://coolors.co/fb3640-605f5e-1d3461
 
 - Font combinations
-https://blog.snappa.com/font-combinations/
-https://www.sliderrevolution.com/design/font-combinations/ (Lobster and Cabin)
+	- https://blog.snappa.com/font-combinations/
+	- https://www.sliderrevolution.com/design/font-combinations/ (Lobster and Cabin)
 
 
 
