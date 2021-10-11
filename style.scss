@@ -1,165 +1,160 @@
 /* Overall style*/
 
-h1 {
-	font-family: Lobster Two;
-	color: #605F5B;
-	font-size: 40px;
-	padding-top: 1em;
-	padding-bottom: 0.5em;
-}
+/* Primary colors */
 
-h2 {
-	font-family: Lobster Two;
-	color: #2274A5;
-	font-size: 28px;
-}
+$primary_1: #1D3461
+$primary_2: #FB3640
 
-h3 {
-	font-family: Cabin;
-	color: #2274A5;
-	font-size: 20px;
-}
+$primary_3: #605F5B
+$primary_4: #2274A5
 
-p {
-	margin-bottom: 0;
-	text-align: justify;
-}
 
-body {
-	font-family: Cabin;
-	font-weight: normal;
-}
+/* Fonts */
 
-.logo {
-	font-family: Lobster Two;
-	font-weight: 700;
-	font-style: italic;
-	font-size: 35px;
-	line-height: 1em;
-}
+$font_1: Lobster Two
+$font_2: Cabin
+
+/* Titles, sections and headings */
+
+header
+	background-color: $primary_1
+	color: white
+	font-family: $font_1
+
+h1 
+	font-family: $font_1
+	color: $primary_3
+	font-size: 40px
+	padding-top: 1em
+	padding-bottom: 0.5em
+
+h2 
+	font-family: $font_1
+	color: $primary_4
+	font-size: 28px
+
+
+h3
+	font-family: $font_2
+	color: $primary_4
+	font-size: 20px
+
+p
+	margin-bottom: 0
+	text-align: justify
+
+body
+	font-family: $font_2
+	font-weight: normal
+
+footer
+	background-color: $primary_1
+
+.logo
+	font-family: $font_1
+	font-weight: 700
+	font-style: italic
+	font-size: 35px
+	line-height: 1em
 
 
 /* Navigation */
 
-header {
-	background-color: #1D3461;
-}
-
-.navbar-brand {
-	font-family: Lobster Two;
-	font-weight: 700;
-	font-style: italic;
-	font-size: 35px;
-	color: white;
-	line-height: 1em;
-}
+.navbar-brand
+	font-family: $font_1
+	font-weight: 700
+	font-style: italic
+	font-size: 35px
+	color: white
+	line-height: 1em
 
 
-#navbarNav {
-	font-family: Lobster Two;
-	font-size: 20px;
-	justify-content: flex-end;
-}
+#navbarNav
+	font-family: $font_1
+	font-size: 20px
+	justify-content: flex-end
 
 
-.navbar-expand-md .navbar-nav .nav-link {
-    padding-left: 1rem;
-}
+.navbar-expand-md .navbar-nav .nav-link
+    padding-left: 1rem
 
 
 /* Hero section */
 
-.jumbotron {
-	background-color: #FB3640;
-	color: white;
-	padding-top: 1.5em;
-	padding-bottom: 3em;
-}
+.jumbotron
+	background-color: $primary_2
+	color: white
+	padding-top: 1.5em
+	padding-bottom: 3em
 
-.display-4 {
-	color: white;
-}
+.display-4
+	color: white
 
 
 /* News section */
 
-.card {
-	border: none;
-	margin-bottom: 1.5em;
-}
+.card
+	border: none
+	margin-bottom: 1.5em
 
-.card-text {
-	text-align: justify;
-}
-
-#News {
-	margin-bottom: em;
-}
+.card-text
+	text-align: justify
 
 
 /* Menu page */
 
-.price {
-	display: flex;
-	align-items: center;
-}
+.price
+	display: flex
+	align-items: center
 
 
 
-.badge {
-	padding-right: 2em;
-}
+.badge
+	padding-right: 2em
 
 
 /* Restaurants page */
 
-.location {
-	font-size: 14px;
-}
+.location
+	font-size: 14px
 
 
 
 
 /* Contact page */
 
-.dropdown-toggle {
-	background-color: #2274A5;
-	color: white;
-	margin-bottom: 2em;
-	margin-top: 1em;
-	padding-right: 1.5em;
-	padding-left: 1.5em;
-}
+.dropdown-toggle
+	background-color: $primary_4
+	color: white
+	margin-bottom: 2em
+	margin-top: 1em
+	padding-right: 1.5em
+	padding-left: 1.5em
 
-#send-button {
-	background-color: #2274A5;
-	color: white;
-	padding-right: 1.5em;
-	padding-left: 1.5em;
-	margin-top: 0.5em;
-}
+#send-button
+	background-color: $primary_4
+	color: white
+	padding-right: 1.5em
+	padding-left: 1.5em
+	margin-top: 0.5em
 
-#send-icon {
-	padding-left: 0.5em;
-}
+#send-icon
+	padding-left: 0.5em
 
 
 
 /* Footer */
-footer {
-	background-color: #1D3461;
-}
 
-@media screen and (max-width: 768px) {
-	#footer-menu {
-		font-size: 13px;
-	}
-	#copyright {
-		font-size: 13px;
-	}
-}
 
-@media screen and (min-width: 768px) {
-	#footer-menu {
-		font-size: 14px;
-}
+@media screen and (max-width: 768px)
+	#footer-menu
+		font-size: 13px
+
+	#copyright
+		font-size: 13px
+
+
+@media screen and (min-width: 768px)
+	#footer-menu
+		font-size: 14px
+
