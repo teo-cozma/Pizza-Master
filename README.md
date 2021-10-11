@@ -1,6 +1,6 @@
 # Welcome to my restaurant!
 
-## Link to assignment description
+## Link to assignment
 https://github.com/becodeorg/BXL-Swartz-5.34/blob/main/1.The-Field/10.Bootstrap/restaurant.adoc
 
 
@@ -19,13 +19,13 @@ This website is responsive with five accessible pages :
 
 ## Languages used
 - HTML
-- CSS
+- CSS (attempt with SASS)
 - Bootstrap
 
 ## Tools used
 - Sublime text (text editor)
 - Adobe XD (hi-fi prototyping)
-- Personal notebook and pencil (low-fi prototyping)
+- Personal notebook and pencil (brainstorming and low-fi prototyping)
 
 ---
 
@@ -35,13 +35,16 @@ This website is responsive with five accessible pages :
 ### Step 1 : research
 
 #### Few basic questions:
-- what kind of restaurant ? --> Franchise = restaurant that has branched out to many locations/investors, with a formula that allows for it to expand like so. Known nationally/internationally.
-	- multiple locations, however the food is consistent
+- what kind of restaurant ? 
+	- Franchise = restaurant that has branched out to many locations/investors, with a formula that allows for it to expand like so. Known nationally/internationally.
+	- Multiple locations, however the food is consistent
 	- Also, support system : community engagement, in-house loans, training programs... (are these necessary here?)
 
-- what kind of food ? --> Pizza (simple and beloved by all !).
+- What kind of food ?
+	- Pizza (simple and beloved by all !).
 
-- Inspiration : Domino's Pizza + top ten common/most popular pizza types --> see links then make a selection :
+- Inspiration : Domino's Pizza + top ten common/most popular pizza types.
+- Selection :
 	1. Neapolitan (a classic for the ages)
 	2. Pepperoni (often the only meat that matters)
 	3. Four cheeses (you can never have too much cheese)
@@ -61,34 +64,34 @@ This website is responsive with five accessible pages :
 		- Pancakes (hot and fluffy !)
 		- Home made doughnuts (see above)
 
-- Resources : see resources section below.
+- Resources : see 'Resources' section.
 - Name idea : Pizza Master
 - Locations : Brussels, Ghent, Anvers, De Haan (another potential issue : I have no building to present, so how do I include a location photo ? Or do I even need to ? Maybe a map would suffice. Also learn how to include a map in CSS/Bootstrap.)
 
 #### Issues to maybe watch out for :
 - Make the site responsive, MOBILE FIRST, small + medium screens (on Bootstrap, sm and md for those respectively ; on CSS, media queries, careful with syntax).
 - 5 accessible pages = 5 seperate HTML page (index/welcome, menu, gallery, restaurants/find us, contact) + 1 (master) CSS stylesheet
-	- use <a href="#"> to link them.
+	- Use a href="#" to link them.
 - Re-read instructions, keep it simple, don't go crazy.
 - Learn how to include Google maps + Contact Form (though this doesn't necessarily have to be interactive, just take care of the visual layout)
 
 #### Following steps to take : 
-1. [] finish research
-2. [] Outline the structures of each page (see the inspiring links and see what those sites have in common)
-	- [] Welcome
-	- [] Menu
-	- [] Gallery
-	- [] Find us
-	- [] Contact
-3. [] Low fidelity prototype on paper (see pictures of sketches)
-4. [] Higher fidelity prototype on Adobe XD
-5. [] Coding on Sublime using HTML, CSS, Bootstrap.
+1. Finish research
+2. Outline the structures of each page (see the inspiring links and see what those sites have in common)
+	- Welcome
+	- Menu
+	- Gallery
+	- Find us
+	- Contact
+3. Low fidelity prototype on paper (see pictures of sketches)
+4. Higher fidelity prototype on Adobe XD
+5. Coding on Sublime using HTML, CSS (and take a look at SASS, Bootstrap.
 
 
 ### Step 2 : outlining the structures of each page on paper
 
 #### Welcome
-'A page with one Jumbotron[^1] and **two panels** to show news (promo, events, etc).'
+'A page with one Jumbotron and **two panels** to show news (promo, events, etc).'
 
 - Possible issue : to keep it simple, this page should probably just include the navigation + news, and not the other elements (contact, menu, and such), otherwise it will be too long and take too long to code...
 - Another thing to consider (maybe later) : write in English and French?
@@ -96,7 +99,7 @@ This website is responsive with five accessible pages :
 
 - News panel on welcome page ideas : BBQ day promo + 'Create your own pizza Workshop' event.
 
-Structure = 
+Structure :
 - Navbar in a Header = Logo + Home (combine Logo and Home? --> see Domino's) + Menu + Gallery + Restaurants + Contact (this should actually be on each page ; give a fixed position?).
 - Hero section (using Jumbotron) for promos and events :
 	- for promos/events, how to lay the out ? (slideshow, too complex for now; top and bottom, or side by side?)
@@ -104,10 +107,12 @@ Structure =
 	- TWO panels : see low-fi prototype sketch + shared XD prototype (at a later time).
 
 **Mobile first!!!!**
+
 The navbar will cover the entire header space, the logo will remain + hamburger menu opposite it.
 
 #### Menu
-'A page with the restaurant menu in the form of a **grouped list with badges**[^2].'
+
+'A page with the restaurant menu in the form of a **grouped list with badges**.'
 
 1. Grouped list for pizzas : 'Our Pizzas'
 2. Grouped list for new or special items : 'Specials'
@@ -118,20 +123,21 @@ Badges = icons for 'Classics', 'Vegetarian', 'Spicy', 'Gluten-free available', a
 Given that it's a series of group lists that occupy the width of the section, the mobile version shouldn't be much problem.
 
 #### Gallery
+
 'A page with a gallery of minimum 10 pictures and a **pagination** (3 photos per page).'
 
 Give that it's 3 photos per page, having 12 pictures total would be nice in order to create 4 paginations. These pictures could be images of the different pizza types, people eating and enjoying themselves.
 
-How would I present this ? It seems that a multi-item carousel would be an interesting display option, though it might get complicated.
+How would I present this ? It seems that a multi-item carousel would be an interesting display option, though it might get complicated (in the end, not necessary for this project).
 
-Also, when it comes to mobile first, the 3 images should be stacked on top of each other, maintaining the integrity of the pagination (which would still have to be reduced in size to fit the smaller screens, perhaps). These images could move at the same time when moving on to the next part ; on XD I could try a prototype with 2 types of transitions : fade in/out or slide left/right, and the actions to accomplish them would be click (on a computer) or swipe (on tablet/smartphone).
+Also, when it comes to Mobile first, the 3 images should be stacked on top of each other, maintaining the integrity of the pagination (which would still have to be reduced in size to fit the smaller screens, perhaps). These images could move at the same time when moving on to the next part ; on XD I could try a prototype with 2 types of transitions : fade in/out or slide left/right, and the actions to accomplish them would be click (on a computer) or swipe (on tablet/smartphone).
 
 #### Restaurant (Find us)
 'A page about the restaurants (it’s a franchise) with its addresses, **a map**, and different schedules.'
 
 At first, I thought this would be an 'About' page, then I thought I simply had to create a (responsive) grid with the addresses and schedule info for each town I selected (Brussels, Ghent, Antwerp, De Haan). Though now I believe I ought to include a short paragraph describing the restaurant (like a mission statement).
 
-Also for mobile first, transition from one column to two (for desktop).
+Also for Mobile first, transition from one column to two (for desktop).
 
 #### Contact
 'A page with a contact form containing the firstname, lastname, email, subject of the message (a **drop-down list** with multiple options), an area for the message itself and a **send button with an icon**. Each entry as a title in a **semantically correct** tag.'
@@ -145,14 +151,19 @@ All the information gathered on the features, tools and methods were collected f
 First, sketching low-fi prototypes of each page that will later be adapted and refined in hi-fi on Adobe XD (see sketches).
 
 Welcome/homepage :
+![Index sketch](./images/index-sketch.jpg)
 
-Menu  :
+Menu :
+![Menu sketch](./images/menu-sketch.jpg)
 
 Pictures :
+![Gallery sketch](./images/gallery-sketch.jpg)
 
 Locations :
+![Restaurants sketch](./images/restaurants-sketch.jpg)
 
 Contact :
+![Contact sketch](./images/contact-sketch.jpg)
 
 ---
 
@@ -195,6 +206,7 @@ Badges for 'Classic' pizzas, 'Favorites', 'Vegetarian', 'Spicy' and items availa
 ---
 
 (08/10)
+
 ***Menu page is complete !!!***
 Lots of small adjustments and going back and forth through old exercises in order to find the right utilities, but well worth doing the overtime at home.
 
@@ -210,15 +222,16 @@ Also, I have to keep reminding myself not to get too caught up in detail (mostly
 
 ***Gallery page(s) complete!!!***
 
-### Step 6 (added) : refining elements, alignments, design, etc.
 
----
+### Step 6 (added) : refining elements, alignments, design.
+
 
 For future reference : when making a website with multiple pages, I think ideally the number of pages should be determined beforehand in order to make the same code structure and copy in the other HTML files. Also, one stylesheet is indeed enough to include styles for all elements on all pages (classes and IDs can certainly help in this).
 
 --- 
 
 (09/10)
+
 A few more adjustments to the images in Galleries 1 and 4 in order to have a nice layout of different-sized images, as well as the pagination for all pages.
 Then, the revelation that there can only be one  Bootstrap Javascript option, either bundled with Popper or without ; the bundle seems to be the best choice, and now the mobile menu works properly (before it didn't because I didn't select one of the options) and so does the dropdown list (it also helped that I referred to documentation and templates from Bootstrap 5 instead of 4 !!!), thus completing the small details for this website project.
 
@@ -226,9 +239,20 @@ Later today, I should probably add a footer on all pages (for, of course, copyri
 
 ***Footer added***
 
-(Include picture of sketch).
+First I looked up what is typically included in a footer element and I retained a small menu with additional pages for more information on the franchise, a few social media pages to follow (Facebook, Twitter and LinkedIn icons were added) and a copyright, as well as a little element to get back to the top of the current page. As for the design, I still wanted to keep things simple and clear so I retained the same style for the header and used a Bootstrap grid to put the elements in place, again keeping Mobile first.
 
-First I looked up what is typically included in a footer element and I retained a small menu with additional pages for more information on the franchise, a few social media pages to follow (Facebook, Twiiter and LinkedIn icons were added) and a copyright, as well as a little element to get back to the top of the current page. As for the design, I still wanted to keep things simple and clear so I retained the same style for the header and used a Bootstrap grid to put the elements in place, again keeping Mobile first.
+![Footer sketch](./images/footer-sketch)
+
+---
+
+(11/10)
+
+Some research into SASS and and how it's written in a text editor. The first stylesheet I created was inteded to be written with SASS, but it turns out I didn't write it correctly, though somehow it appeared in my browser as I was creating the site. However, there was no style applied when I pushed everything from my local folder onto Github, and then launched via Github Pages. I assumed that this was due to the incorrect syntax, so I copied yesterday the stylesheet and made it into a regular CSS file and linked my HTML files to that. Sure enough, when the Pages were finally deployed (and active), it worked!
+Now I'm looking into SASS syntax to get a better grasp of how to write it and what it's intended for (as a more powerful version of CSS, from what I currently understand). This is more of a last research run into something I could better apply in future projects.
+
+In addition, "tested" the launched website, modifying its dimensions, checking the mobile versions, making last-minute changes (including a "proper 'About' text").
+
+***Final deployment ready.***
 
 ---
 
@@ -315,7 +339,13 @@ https://www.youtube.com/watch?v=itJcNZPYKZU
 
 ### Additional CSS references
 [^2] https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/List_group_with_badges
-Building with SCSS :https://www.codesmite.com/article/building-sass-and-scss-in-sublime-text
+Building with SCSS/SASS :
+- https://www.codesmite.com/article/building-sass-and-scss-in-sublime-text
+- https://www.toptal.com/front-end/sass-style-guide-a-sass-tutorial-on-how-to-write-better-css-code
+- https://sass-lang.com/guide
+- https://www.w3schools.com/sass/default.php
+- https://sass-lang.com/documentation/syntax/structure
+- https://www.koderhq.com/tutorial/sass/syntax/
 
 
 ### Design elements
@@ -329,7 +359,8 @@ https://www.sliderrevolution.com/design/font-combinations/ (Lobster and Cabin)
 
 
 
-### Image credits
+### Image credits 
+(Royalty-free)
 1. Photo by Anna Shvets from Pexels, 'Person Preparing A Pizza', https://www.pexels.com/photo/person-preparing-a-pizza-5953528/
 2. Photo by Kampus Production from Pexels, 'A Young Chef Making Pizza', https://www.pexels.com/photo/a-young-chef-making-pizza-8511856/
 3. Photo by Pixabay from Pexels, 'Close-up of Pizza', https://www.pexels.com/photo/baking-cheese-cooking-crust-315755/ (for Neapolitan)
