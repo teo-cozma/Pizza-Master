@@ -185,7 +185,9 @@ Then, getting to work on XD, preparing the design work for desktop (min 1080px),
 
 Issue with the mobile menu page : to long to go through the entire list (it's no longer a thin smooth list, but rather a series of blocs).
 
-(See XD file included in this repository)
+(See XD file and 'prototype-artboards' folder included in this repository).
+
+It might be important for me to add that this prototype serves as a key visual reference for the following step (especially since I'm a visual person), however it is not a final version of the site, as many possible changes might have to be made, from small adjustments to more significant alterations. For this project, I did not spend more than a few hours conceiving the first version, and no more than a few minutes each time to delete or add.
 
 ### Step 5 : coding the pages with HTML, CSS (Sass) and Bootstrap
 
